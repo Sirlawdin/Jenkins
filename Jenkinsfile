@@ -1,3 +1,5 @@
+def gv
+
 pipeline {
     agent any
     tools {
@@ -25,7 +27,6 @@ pipeline {
                     }
                 }
             }
-        }
         stage("deploy") {
             steps {
                 script {
@@ -34,4 +35,4 @@ pipeline {
             }
         }
     }
-
+        }
