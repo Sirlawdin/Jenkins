@@ -10,13 +10,13 @@ def buildImage() {
         sh 'docker push sirlawdin/my-devops-repo:jma-2.0'
 }
 
-def testApp() {
-    echo 'testing the application...'
-}
+// def testApp() {
+//     echo 'testing the application...'
+// }
 
 def deployApp() {
     echo 'deploying the application...'
-    echo "deploying version ${params.VERSION}"
+    // echo "deploying version ${params.VERSION}"
 }
 
 
